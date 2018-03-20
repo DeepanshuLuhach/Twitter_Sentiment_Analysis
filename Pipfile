@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+
+[packages]
+django = "==1.10.5"
+nltk = "==3.2.2"
+textblob = "==0.11.1"
+tweepy = "==3.5.0"
+gunicorn = "==19.4.5"
+"psycopg2" = "==2.6.1"
+whitenoise = "*"
+dj-static = "==0.0.6"
+
+[requires]
+python_version = "2.7"
